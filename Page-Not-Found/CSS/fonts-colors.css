@@ -1,0 +1,13 @@
+:root{
+	/*fuentes*/
+	--not-found: 700 1.5rem/1.575rem 'Inconsolata', monospace;
+	--news:700 3rem/4rem 'Space Mono', monospace ;
+	--text-news: 1.125rem/1.6875rem 'Space Mono', monospace ;
+	--button: 700 1rem/1.3rem 'Space Mono', monospace;
+	--text-foot: 700 0.75rem/1rem 'Montserrat', sans-serif;
+	/*colores*/
+	--base: #333;
+	--text-news-color: #4F4F4F;
+	--color-button: #FFF;
+	--foot-color:#BDBDBD ;
+}

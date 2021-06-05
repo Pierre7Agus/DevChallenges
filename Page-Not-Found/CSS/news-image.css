@@ -1,0 +1,44 @@
+.news_image{
+	inline-size: 17.9268rem;
+	block-size: 14.875rem;
+}
+@keyframes on{
+	0%{
+		filter: grayscale(100%);
+	}
+	50%{
+		filter: grayscale(0%);
+	}
+	100%{
+		filter: grayscale(100%);
+	}
+}
+.news_image > .uno{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	filter: grayscale(100%);
+	animation: on 3s 1s ease-in-out infinite;
+}
+.news_image > .dos{
+	display: none;
+}
+@media screen and (min-width: 800px){
+	.news_image{
+		flex:1 1 100%;
+	}
+}
+@media screen and (min-width: 1000px){
+	.news_image > .uno{
+		display: none;
+	}
+	.news_image > .dos{
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		filter: grayscale(100%);
+		animation: on 3s 1s ease-in-out infinite;
+	}
+}

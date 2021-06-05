@@ -1,0 +1,20 @@
+@import 'CSS/fonts-colors.css';
+@import 'CSS/header.css';
+@import 'CSS/news.css';
+@import 'CSS/news-image.css';
+@import 'CSS/news_text.css';
+@import 'CSS/footer.css';
+
+*,*::after,*::before{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 16px;
+}
+body{
+	color: var(--base);
+	width: 100vw;
+	height: auto;
+}

@@ -1,0 +1,74 @@
+@keyframes move{
+	0%{
+		left: 1%;
+	}
+	50%{
+		left:60%;
+	}
+	100%{
+		left: 1%;
+	}
+}
+.header{
+	position: absolute;
+	top: 1.25rem;
+	left: 1.5rem;
+	animation:move 5s 1s ease-in-out infinite ;
+}
+.header > h1{
+	font: var(--not-found);
+	letter-spacing: -0.15rem;
+	text-transform: uppercase;
+}
+@media screen and (min-width: 640px){
+	@keyframes move{
+	0%{
+		left: 1%;
+	}
+	50%{
+		left:79%;
+	}
+	100%{
+		left: 1%;
+	}
+}
+	.header{
+		animation:move 8s 1s ease-in-out infinite ;
+	}
+}
+@media screen and (min-width: 800px){
+	@keyframes move{
+	0%{
+		left: 1%;
+	}
+	50%{
+		left:84%;
+	}
+	100%{
+		left: 1%;
+	}
+}
+	.header{
+		animation:move 12s 1s ease-in-out infinite ;
+	}
+}
+@media screen and (min-width: 1000px){
+	@keyframes move{
+	0%{
+		left: 150px;
+	}
+	20%{
+		left: 1%;
+	}
+	50%{
+		left:90%;
+	}
+	100%{
+		left: 150px;
+	}
+}
+	.header{
+		left: 150px;
+		animation:move 24s 4s ease-in-out infinite ;
+	}
+}

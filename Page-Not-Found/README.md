@@ -61,5 +61,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - GitHub [ @Pierre7Agus ]( https://github.com/Pierre7Agus )
--CodePen [ Pierre7Agus ]( https://codepen.io/pierre7agus/pens/public )
+- CodePen [ Pierre7Agus ]( https://codepen.io/pierre7agus/pens/public )
 - Twitter [ @agurto_pierre ]( https://twitter.com/@agurto_pierre )

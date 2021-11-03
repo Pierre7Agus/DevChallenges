@@ -1,0 +1,20 @@
+:root{
+	--subtitle-header:200 0.875rem/0.9375rem 'Crimson Pro', serif;
+	--principal-title:500 2.25rem/2.875rem  'Lora', serif;
+	--principal-text:0.875rem/1.2rem 'Montserrat', sans-serif ;
+	--principal-more:700 0.875rem/1.1rem  'Montserrat', sans-serif;
+	--parr:500 0.75rem/0.90625rem  'Montserrat', sans-serif;
+	--parr1:500 0.625rem/0.75rem  'Montserrat', sans-serif;
+	--parr2:700 1.125rem/1.3125rem  'Montserrat', sans-serif;
+	--screen: 500 0.875rem/1.3125rem  'Montserrat', sans-serif;
+	--card-content:700 1.125rem/1.4275rem  'Lora', serif;
+	--footer:700 0.875rem/1.0625rem  'Montserrat', sans-serif;
+
+	/*color*/
+	--title: #FFFFFF;
+	--footer-color:#A9A9A9 ;
+	--background:#181719 ;
+	--clr-primary-5: hsl(205, 78%, 60%);
+
+	--transition: all 0.3s linear;
+}
